@@ -16,8 +16,25 @@
 <title>Assignment 13</title>
 </head>
 <body>
+  <canvas id="myCanvas" width="300" height="200" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "40px Arial";
+    ctx.strokeText("Hello Jaime!",10,50);
+    </script>
 
 <h1>Assignment 13</h1>
-<p>Assignment ten was a lot less of a learning curve compared to the previous assignment. I enjoyed exploring the colors and even reading the tutorials about what all was possible and how to add it. Once I understood we are adding more code into the existing code it made it a lot easier to edit the code and add what was required. Figuring out what colors and font sizes work best was very interesting. For the sake of staying on the assignment path I didn’t stray from the directions, but I am excited to apply future lessons and see what we can create.</p>
+<p></p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
 </body>
 </html>
