@@ -16,18 +16,20 @@
 <title>Assignment 13</title>
 </head>
 <body>
-  <canvas id="myCanvas" width="300" height="200" style="border:1px solid #d3d3d3;">
-    Your browser does not support the HTML canvas tag.</canvas>
-    
-    <script>
-    var c = document.getElementById("myCanvas");
-    var ctx = c.getContext("2d");
-    ctx.font = "40px Arial";
-    ctx.strokeText("Hello Jaime!",10,50);
-    </script>
+  <canvas id="myCanvas" width="400" height="300" style="border:5px solid grey;"></canvas>
+
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx=canvas.getContext("2d");
+
+ctx.font="30px Comic Sans MS";
+ctx.fillStyle = "red";
+ctx.textAlign = "center";
+ctx.fillText("Hello Jaime!", canvas.width/2, canvas.height/2);
+</script>
 
 <h1>Assignment 13</h1>
-<p></p>
+<p>Personalizing is one of my favorite things to do when I get something new. Creating this website is no different and Assignment thirteen helped me even further understand what else can be done. I am still very new to this and going through the readings and activities, but my JavaScript designs are still simple and lacking a little more detail. Displaying the date was interesting as it did not require specific code to produce the current date. You just had to specify a new date and JavaScript would auto generate it to match the current date and time zone. On the personalization aspect this assignment was enlightening and will be useful information in a future career.</p>
 
 <p id="demo"></p>
 
